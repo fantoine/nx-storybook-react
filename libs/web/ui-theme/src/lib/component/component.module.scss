@@ -1,0 +1,6 @@
+@import 'mixins';
+
+.sample {
+  @include size(500px, 500px);
+  background: red;
+}

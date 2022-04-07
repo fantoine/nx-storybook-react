@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@nrwl/nx"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": [
+        "plugin:import/recommended",
+        "plugin:jest/recommended",
+        "plugin:react-hooks/recommended",
+        "prettier"
+      ],
+      "rules": {}
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "plugin:@nrwl/nx/typescript",
+        "plugin:import/typescript",
+        "prettier"
+      ],
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": ["plugin:@nrwl/nx/javascript", "prettier"],
+      "rules": {}
+    }
+  ]
+}

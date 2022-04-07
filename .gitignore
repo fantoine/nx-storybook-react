@@ -1,0 +1,58 @@
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# jest coverage
+.coverage
+
+# editor specific
+.history
+*~
+
+# ignore private info
+.env
+.env.*
+!.env.dist
+!.env.test
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/public
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!../.vscode/extensions.json
+
+# misc
+/.yarn
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+
+# System Files
+.DS_Store
+Thumbs.db
+.Trash-0
